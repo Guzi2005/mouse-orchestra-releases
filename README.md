@@ -6,7 +6,7 @@
 
 无描边的森林鼠鼠 · 可自由编队的桌面音乐盒 · 本地音频驱动
 
-[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.38) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
+[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.39) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
 
 ![桌面音乐盒：鼠鼠在两层纸剧场里演奏](media/desktop.png)
 
@@ -14,7 +14,7 @@
 
 指挥会给拍，鼓手会甩腕，提琴手会换弓，竖琴手会拨弦。你可以把喜欢的成员放进发条盒子，替它们换装、拖动站位，或让旋律乐手边弹边唱。
 
-**当前版本：v0.2.38 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
+**当前版本：v0.2.39 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
 
 ## 看看它们怎么演奏
 
@@ -43,7 +43,7 @@
 
 ## 下载与运行
 
-1. 打开 [v0.2.38 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.38)，在 **Assets** 中下载 **MouseOrchestra-v0.2.38-Windows-x64.zip**。
+1. 打开 [v0.2.39 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.39)，在 **Assets** 中下载 **MouseOrchestra-v0.2.39-Windows-x64.zip**。
 2. **完整解压**，进入解压后的 `MouseOrchestra` 文件夹。
 3. 双击 `MouseOrchestra.exe`，或 `启动鼠鼠.cmd`。
 
@@ -54,7 +54,7 @@
 发布页提供 `SHA256SUMS.txt`，可在 PowerShell 核对文件：
 
 ```powershell
-Get-FileHash .\MouseOrchestra-v0.2.38-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\MouseOrchestra-v0.2.39-Windows-x64.zip -Algorithm SHA256
 ```
 
 ## 三分钟开始演出
@@ -76,6 +76,18 @@ Get-FileHash .\MouseOrchestra-v0.2.38-Windows-x64.zip -Algorithm SHA256
 - **可见的音乐反应。** 成员卡片显示实际动作、声部、强度和拍号；拍号不确定时标为示意。眼神连续移动，成员入场时互望、看指挥；休止后会收势和待机。
 - **声乐并行。** 主唱、和声与童声可以同时开口；自动分工优先专职主唱，其他成人可唱成员参与已检测到的合唱。小小鼠需要童声特征证据，不会因高音自动接管主唱。
 
+## 曲目与阵容预设
+
+右上角 **“试听预设 ▾”** 会同时载入曲目与合适的编制。除了原有《叶间小步舞》，还有三首原创合成试听：
+
+- **把灯留给你**：84 BPM 的抒情合唱，主唱、和声、童声应答，钢琴与清音电吉他、弦乐和鼓组。
+- **莓果跳跳**：112 BPM 的拨扫律动，木／电吉他、反拍鼓组、双手同步沙锤及主唱和声。
+- **月光落叶**：90 BPM 的三拍小乐队，竖琴单拨／琶音／扫弦，弦乐长句、竹笛与三角铁。
+
+同一菜单还有 **“Heal the World · 官方音源联动”**：安排 11 位成员，包含电吉他、架子鼓、小小鼠、主唱、两位和声、钢琴、弦乐和指挥；打开 [Michael Jackson 官方播放页](https://www.michaeljackson.com/watch/heal-the-world/)，同时开始本机系统声音监听。**请在官方页面点播放原曲**，鼠鼠跟随实际声音响应；原曲没有复制或改编进应用包，也没有写死原曲时间点假演奏。
+
+键盘、主唱／伴唱、合唱和鼓参考 [发行署名](https://music.apple.com/us/song/655263571)。电吉他按本项目编制作为扩展演绎；阵容预设不表示精确还原原录音的每条音轨。官方页面需要联网，可能受地区与浏览器播放策略影响。选择原创曲仍可全程离线。切换后可从同一菜单选择 **“撤销试听换队”**，恢复之前的成员、站位、配饰和声源。
+
 ## 试听入口
 
 解压包内有几个不覆盖已保存队形的专用试听：
@@ -96,7 +108,7 @@ Get-FileHash .\MouseOrchestra-v0.2.38-Windows-x64.zip -Algorithm SHA256
 
 主唱、和声、小小的类别可以并存，但自然混音里的多位歌手不能被逐人精确分配。只有一位成人可唱成员时会合并成人声乐能量、采用中性口型；中文／日语／通用元音选项是声学口型近似，不是歌词识别或精确唇读。“童声”表示音色特征，不证明演唱者年龄。
 
-**本版验证：** 106 项回归通过，包含实际播放和 Windows 回环采集；兼职声乐流程检查了 384 个原生帧与 8 个已知录音／受控混合场景。它们是功能与回归证据，不是通用识别准确率。
+**本版验证：** 110 项回归通过，包含实际播放和 Windows 回环采集；兼职声乐流程检查了 384 个原生帧与 8 个已知录音／受控混合场景。它们是功能与回归证据，不是通用识别准确率。
 
 ## 常见问题
 
