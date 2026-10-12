@@ -1,0 +1,17 @@
+Wood-click spectral templates, Joseph Sardin / BigSoundBank, CC0.
+https://bigsoundbank.com/drumsticks-1-s1488.html
+https://bigsoundbank.com/licenses.html
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Changes: downmix/resample to 24kHz, window the first two drumstick-on-drumstick
+attacks, two averaged normalized 80-band spectral statistics. Original audio
+is not redistributed. Runtime control code is original.
+
+Validation only (no audio included or model trained from these recordings):
+schatzl03, drumsticks tapping together_1-2.aif, Sampling+1.0.
+https://freesound.org/people/schatzl03/sounds/85744/
+https://creativecommons.org/licenses/sampling+/1.0/
+SamuelGremaud, CLAVES, CC0.
+https://freesound.org/people/SamuelGremaud/sounds/517609/
+
+See _internal/assets/WOOD_CLICK_TEMPLATES.md for formula and failure boundaries.

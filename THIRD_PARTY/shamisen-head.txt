@@ -1,0 +1,28 @@
+Optional experimental Shamisen head, trained by Mouse Orchestra, v0.2.16.
+
+Derived weight and training manifest: CC BY-NC-SA 3.0.
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+IRMAS authors: Juan J. Bosch, Jordi Janer, Ferdinand Fuhrmann, Perfecto Herrera,
+Music Technology Group, Universitat Pompeu Fabra.
+https://www.upf.edu/web/mtg/irmas
+https://doi.org/10.5281/zenodo.1290750
+
+Positive training source recordings: claywh/pflanigan and RutgerMuller, CC0.
+https://freesound.org/people/claywh/sounds/721267/
+https://freesound.org/people/RutgerMuller/sounds/365262/
+CC0 chromatic excerpts: https://audiotestsonline.com/tools/virtual-shamisen/
+
+Validation-only sources (not embedded as audio or trained into this weight):
+Nesnad, Shamisenwithvocals 2006, CC BY 3.0.
+https://commons.wikimedia.org/wiki/File:Shamisenwithvocals_2006.ogg
+https://creativecommons.org/licenses/by/3.0/
+MisterTood, banjo5.wav, CC0.
+https://freesound.org/people/MisterTood/sounds/9036/
+Toni_Quiroga, Sitar.wav, CC0.
+https://freesound.org/people/Toni_Quiroga/sounds/339970/
+
+Changes: windowing/resampling, normalized YAMNet embeddings, new class-balanced
+ridge head and positive prototype. Original recordings are not redistributed.
+No endorsement is implied. This license covers only the derived optional weight
+and manifest, not original app code/art or Google's Apache 2.0 YAMNet weight.
+See _internal/assets/yamnet/SHAMISEN_HEAD.md for formulas, limitations and hash.

@@ -1,0 +1,42 @@
+name: 问题反馈
+description: 启动、音频、角色动作或界面问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传无分享授权的完整歌曲或个人资料；音频误例可提供公开链接与时间段。
+  - type: input
+    id: version
+    attributes:
+      label: 应用版本与 Windows 版本
+      placeholder: "v0.2.38 / Windows 11 x64"
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: 声源模式
+      options:
+        - 原创试听
+        - 聆听系统声音
+        - 我的独立音轨
+        - 启动或界面问题
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 重现步骤与在场成员
+      description: 是否启用乐器识别／兼职歌手？何时出现问题？
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 实际表现与期望表现
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可选截图、公开音频链接与时间点
