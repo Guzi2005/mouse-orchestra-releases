@@ -6,7 +6,7 @@
 
 无描边的森林鼠鼠 · 可自由编队的桌面音乐盒 · 本地音频驱动
 
-[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.40) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
+[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.41) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
 
 ![桌面音乐盒：鼠鼠在两层纸剧场里演奏](media/desktop.png)
 
@@ -14,11 +14,15 @@
 
 指挥会给拍，鼓手会甩腕，提琴手会换弓，竖琴手会拨弦。你可以把喜欢的成员放进发条盒子，替它们换装、拖动站位，或让旋律乐手边弹边唱。
 
-**当前版本：v0.2.40 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
+**当前版本：v0.2.41 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
 
 ## 看看它们怎么演奏
 
 下方 GIF 是应用实际绘制的动作，使用原创合成声部／已知演奏事件驱动，**不代表对真人歌曲的识别准确率**。GIF 没有声音，下载后的专用试听入口可以同步听见对应声音。
+
+![所有23位鼠鼠的演奏动画，随机搭配自然皮肤、头饰与围巾](media/all-musicians.gif)
+
+**全员开演。** 23 种现有角色都在这一张总览里；五款自然皮肤与现有头饰、围巾随机组合，每只鼠在动画中保持自己的装扮。总览将各声部的原创试听片段并列展示，应用最多 18 位同时在场的限制保持。
 
 <details open>
 <summary><b>竖琴：单拨、琶音与上下扫弦</b></summary>
@@ -43,7 +47,7 @@
 
 ## 下载与运行
 
-1. 打开 [v0.2.40 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.40)，在 **Assets** 中下载 **MouseOrchestra-v0.2.40-Windows-x64.zip**。
+1. 打开 [v0.2.41 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.41)，在 **Assets** 中下载 **MouseOrchestra-v0.2.41-Windows-x64.zip**。
 2. **完整解压**，进入解压后的 `MouseOrchestra` 文件夹。
 3. 双击 `MouseOrchestra.exe`，或 `启动鼠鼠.cmd`。
 
@@ -54,7 +58,7 @@
 发布页提供 `SHA256SUMS.txt`，可在 PowerShell 核对文件：
 
 ```powershell
-Get-FileHash .\MouseOrchestra-v0.2.40-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\MouseOrchestra-v0.2.41-Windows-x64.zip -Algorithm SHA256
 ```
 
 ## 三分钟开始演出
@@ -81,6 +85,25 @@ Get-FileHash .\MouseOrchestra-v0.2.40-Windows-x64.zip -Algorithm SHA256
 ![五款自然皮肤：白化白、缎子浅灰、家鼠灰、家鼠黑、田鼠棕](media/natural-skins.png)
 
 选中鼠鼠，在纸娃娃“皮肤”或右键“装扮这只鼠鼠 → 皮肤”中更换。被毛保持原有扁平色块，不添加写实纹理；缎子是被毛类型，浅灰是这一款的配色，名称并不用于物种鉴定。
+
+## 为乐团换一个剧场
+
+顶部 **“剧场样式 ▾”** 或右键同名菜单，选择单层／双层／三层／四层／五层纸盒，或三款经典舞台。当前双层仍为默认样式。
+
+**经典合唱台**：后景幕布、左右各三层阶台和中央通道；歌手／和声／小小上阶台，乐器与指挥在底层，指挥在中央最前。**镜框剧院**是侧边束起红幕的单层前台；**室内音乐厅**以木质音墙搭配双层乐队。
+
+![幕布双翼合唱台：上方合唱，下方乐手与指挥](media/theater-choir.png)
+
+<details>
+<summary><b>五层纸盒和红幕剧院</b></summary>
+
+![五层纸盒：箱体增高，鼠鼠保持宽度比例](media/theater-five.png)
+
+![红幕镜框剧院](media/theater-red.png)
+
+</details>
+
+鼠鼠可在实体台阶间拖动，各款剧场分别记住手动站位，切回来恢复已有排布。“整理队形”重新编队；新增成员按当前剧场补位。多层箱体适度增高，桌面三档也同步高度；排练室的高箱体可滚动查看，成员卡片保持在下方。单层适合较少成员，人数很多时可改用多层。
 
 ## 曲目与阵容预设
 
@@ -114,7 +137,7 @@ Get-FileHash .\MouseOrchestra-v0.2.40-Windows-x64.zip -Algorithm SHA256
 
 主唱、和声、小小的类别可以并存，但自然混音里的多位歌手不能被逐人精确分配。只有一位成人可唱成员时会合并成人声乐能量、采用中性口型；中文／日语／通用元音选项是声学口型近似，不是歌词识别或精确唇读。“童声”表示音色特征，不证明演唱者年龄。
 
-**本版验证：** 110 项回归通过，包含实际播放和 Windows 回环采集；兼职声乐流程检查了 384 个原生帧与 8 个已知录音／受控混合场景。它们是功能与回归证据，不是通用识别准确率。
+**本版验证：** 112 项回归通过，包含实际播放和 Windows 回环采集；兼职声乐流程检查了 384 个原生帧与 8 个已知录音／受控混合场景。它们是功能与回归证据，不是通用识别准确率。
 
 ## 常见问题
 
