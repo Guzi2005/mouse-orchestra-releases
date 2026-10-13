@@ -6,7 +6,7 @@
 
 无描边的森林鼠鼠 · 可自由编队的桌面音乐盒 · 本地音频驱动
 
-[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.41) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
+[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.42) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
 
 ![桌面音乐盒：鼠鼠在两层纸剧场里演奏](media/desktop.png)
 
@@ -14,7 +14,9 @@
 
 指挥会给拍，鼓手会甩腕，提琴手会换弓，竖琴手会拨弦。你可以把喜欢的成员放进发条盒子，替它们换装、拖动站位，或让旋律乐手边弹边唱。
 
-**当前版本：v0.2.41 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
+**当前版本：v0.2.42 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
+
+**默认使用完整配置：人声与乐器识别同时启用，省电动画关闭，演奏约 30fps。** 普通启动与主唱试听入口一致；不用先关闭省电或打开乐器识别。设置仍可手动调整，完整配置不表示复杂歌曲已能精确分轨。
 
 ## 看看它们怎么演奏
 
@@ -47,7 +49,7 @@
 
 ## 下载与运行
 
-1. 打开 [v0.2.41 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.41)，在 **Assets** 中下载 **MouseOrchestra-v0.2.41-Windows-x64.zip**。
+1. 打开 [v0.2.42 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.42)，在 **Assets** 中下载 **MouseOrchestra-v0.2.42-Windows-x64.zip**。
 2. **完整解压**，进入解压后的 `MouseOrchestra` 文件夹。
 3. 双击 `MouseOrchestra.exe`，或 `启动鼠鼠.cmd`。
 
@@ -58,7 +60,7 @@
 发布页提供 `SHA256SUMS.txt`，可在 PowerShell 核对文件：
 
 ```powershell
-Get-FileHash .\MouseOrchestra-v0.2.41-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\MouseOrchestra-v0.2.42-Windows-x64.zip -Algorithm SHA256
 ```
 
 ## 三分钟开始演出
