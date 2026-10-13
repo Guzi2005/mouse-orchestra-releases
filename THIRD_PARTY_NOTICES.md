@@ -1,6 +1,6 @@
 # 第三方署名与运行库替换
 
-Mouse Orchestra v0.2.39, Windows x64, 2026-10-13.
+Mouse Orchestra v0.2.40, Windows x64, 2026-10-13.
 
 本说明区分应用原创内容与第三方组件，不为整个应用授予同一种许可证。
 完整许可文本在发行包 `THIRD_PARTY` 和 `_internal/assets` 中；公开仓库也保留副本。
@@ -17,7 +17,7 @@ Copyright The Qt Company Ltd. and contributors. 使用 LGPL-3.0 的动态链接�
 同时保持依赖 DLL 与插件版本兼容。Python 为 3.13.14，Windows x86-64；PySide6/Shiboken 均为 6.11.2。
 源码内附 CMake 构建说明，Qt for Python 构建说明：https://doc.qt.io/qtforpython-6/building_from_source/index.html 。
 
-发布页附件 `MouseOrchestra-v0.2.39-third-party-sources.zip` 提供下列对应版本的原始第三方源码归档，
+发布页附件 `MouseOrchestra-v0.2.40-third-party-sources.zip` 提供下列对应版本的原始第三方源码归档，
 附每个文件的 SHA-256 和原始地址；不包含本项目私有源码。免费官方下载地址也可直接使用：
 
 - [qtbase 6.11.2](https://download.qt.io/archive/qt/6.11/6.11.2/submodules/qtbase-everywhere-src-6.11.2.tar.xz)

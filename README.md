@@ -6,7 +6,7 @@
 
 无描边的森林鼠鼠 · 可自由编队的桌面音乐盒 · 本地音频驱动
 
-[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.39) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
+[下载 Windows 预览版](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.40) · [快速上手](#三分钟开始演出) · [反馈问题](https://github.com/Guzi2005/mouse-orchestra-releases/issues/new?template=bug_report.yml)
 
 ![桌面音乐盒：鼠鼠在两层纸剧场里演奏](media/desktop.png)
 
@@ -14,7 +14,7 @@
 
 指挥会给拍，鼓手会甩腕，提琴手会换弓，竖琴手会拨弦。你可以把喜欢的成员放进发条盒子，替它们换装、拖动站位，或让旋律乐手边弹边唱。
 
-**当前版本：v0.2.39 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
+**当前版本：v0.2.40 · 公开预览版 · Windows x64。** 无需安装 Python，也无需登录或联网运行。公开仓库用于下载、说明和问题反馈；应用开发源码暂未公开。
 
 ## 看看它们怎么演奏
 
@@ -43,7 +43,7 @@
 
 ## 下载与运行
 
-1. 打开 [v0.2.39 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.39)，在 **Assets** 中下载 **MouseOrchestra-v0.2.39-Windows-x64.zip**。
+1. 打开 [v0.2.40 下载页](https://github.com/Guzi2005/mouse-orchestra-releases/releases/tag/v0.2.40)，在 **Assets** 中下载 **MouseOrchestra-v0.2.40-Windows-x64.zip**。
 2. **完整解压**，进入解压后的 `MouseOrchestra` 文件夹。
 3. 双击 `MouseOrchestra.exe`，或 `启动鼠鼠.cmd`。
 
@@ -54,7 +54,7 @@
 发布页提供 `SHA256SUMS.txt`，可在 PowerShell 核对文件：
 
 ```powershell
-Get-FileHash .\MouseOrchestra-v0.2.39-Windows-x64.zip -Algorithm SHA256
+Get-FileHash .\MouseOrchestra-v0.2.40-Windows-x64.zip -Algorithm SHA256
 ```
 
 ## 三分钟开始演出
@@ -71,10 +71,16 @@ Get-FileHash .\MouseOrchestra-v0.2.39-Windows-x64.zip -Algorithm SHA256
 
 - **23 种角色可选，最多 18 位同时在场。** 指挥、歌手、和声、小小、大小提琴、木吉他、电吉他、三味线、钢琴、手风琴、竖琴、双簧管、单簧管、竹笛、圆号、小号、长号、大号、小鼓、架子鼓、三角铁、沙锤；可以有多位同职业成员。
 - **一键管弦编队。** “管弦乐队”安排 16 位成员，支持撤销换队；“整理队形”将指挥放在中央最前。人数增加时使用前后两层台阶，也可以自己拖动站位。
-- **纸娃娃换装。** 点击成员或卡片，更换头饰、围巾和五种配色。队形、装扮和兼职歌手偏好会自动保存。
+- **纸娃娃换装。** 点击成员或卡片，更换头饰、围巾和五款自然皮肤：实验室小鼠白、缎子鼠浅灰、家鼠灰、家鼠黑、田鼠棕。头身与粗短双手同步毛色，黑鼠保留深眼与小高光；队形、装扮和兼职歌手偏好自动保存，旧配色配置也可继续读取。
 - **乐手也能唱。** 右键木／电吉他、钢琴、竖琴、手风琴、三味线、大小提琴或其卡片，进入“兼职歌手”：只演奏、自动分工、优先主唱、只唱和声。唱歌可以另绑独立 WAV，不会替换乐器声部。
 - **可见的音乐反应。** 成员卡片显示实际动作、声部、强度和拍号；拍号不确定时标为示意。眼神连续移动，成员入场时互望、看指挥；休止后会收势和待机。
 - **声乐并行。** 主唱、和声与童声可以同时开口；自动分工优先专职主唱，其他成人可唱成员参与已检测到的合唱。小小鼠需要童声特征证据，不会因高音自动接管主唱。
+
+## 自然皮肤
+
+![五款自然皮肤：白化白、缎子浅灰、家鼠灰、家鼠黑、田鼠棕](media/natural-skins.png)
+
+选中鼠鼠，在纸娃娃“皮肤”或右键“装扮这只鼠鼠 → 皮肤”中更换。被毛保持原有扁平色块，不添加写实纹理；缎子是被毛类型，浅灰是这一款的配色，名称并不用于物种鉴定。
 
 ## 曲目与阵容预设
 

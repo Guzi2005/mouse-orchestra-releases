@@ -1,8 +1,10 @@
-# 鼠鼠 Orchestra v0.2.39 · 试听曲目与阵容预设
+# 鼠鼠 Orchestra v0.2.40 · 五款自然皮肤
+
+新增实验室小鼠白、缎子鼠浅灰、家鼠灰、家鼠黑、田鼠棕，选中成员后在纸娃娃「皮肤」或右键装扮中选择。旧配色配置继续保留。
 
 一盒可自由编队的森林鼠鼠乐团：本地监听音乐、拖拽站位、换装、两层纸剧场，以及边奏边唱的兼职歌手。
 
-**下载 `MouseOrchestra-v0.2.39-Windows-x64.zip`，完整解压后运行 `MouseOrchestra.exe`。** Windows 10/11 x64，无需安装 Python。保留 `_internal` 文件夹；自动生成的 Source code 压缩包只有文档和图片，不是应用。
+**下载 `MouseOrchestra-v0.2.40-Windows-x64.zip`，完整解压后运行 `MouseOrchestra.exe`。** Windows 10/11 x64，无需安装 Python。保留 `_internal` 文件夹；自动生成的 Source code 压缩包只有文档和图片，不是应用。
 
 右上角“试听预设”新增三首原创曲：抒情合唱《把灯留给你》、拨扫律动《莓果跳跳》、三拍竖琴《月光落叶》，保留原有室内曲；载入对应编制，可撤销恢复成员／站位／声源。独立PCM与同源演奏事件驱动，场上缺席角色不参与混音。
 
@@ -16,8 +18,8 @@
 
 附件：
 
-- `MouseOrchestra-v0.2.39-Windows-x64.zip` — 应用便携包。
-- `MouseOrchestra-v0.2.39-third-party-sources.zip` — 对应 Qt/PySide6 第三方源码与构建／替换说明。
+- `MouseOrchestra-v0.2.40-Windows-x64.zip` — 应用便携包。
+- `MouseOrchestra-v0.2.40-third-party-sources.zip` — 对应 Qt/PySide6 第三方源码与构建／替换说明。
 - `SHA256SUMS.txt` — 上述附件的 SHA-256。
 
 软件未签名。可先核对来源和 SHA-256；有问题请通过 Issues 反馈，无需关闭系统防护。
